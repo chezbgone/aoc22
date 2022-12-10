@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:aoc22"
+
+    - path: "exe/Main.hs"
+      component: "aoc22:exe:aoc22"
+
+    - path: "test"
+      component: "aoc22:test:aoc22-test"
