@@ -15,7 +15,8 @@ import Data.Text qualified as T
 -- import Day09 qualified
 -- import Day10 qualified
 -- import Day11 qualified
-import Day12 qualified
+-- import Day12 qualified
+import Day13 qualified
 
 class IsString a => StringLike a where
   toString :: a -> String
@@ -44,8 +45,8 @@ main = do
   -- solve "inputs/day09" Day09.solutions
   -- solve "inputs/day10" Day10.solutions
   -- solve "inputs/day11" Day11.solutions
-  solve "inputs/day12" Day12.solutions
-  -- solve "inputs/day13" Day13.solutions
+  -- solve "inputs/day12" Day12.solutions
+  solve "inputs/day13" Day13.solutions
   -- solve "inputs/day14" Day14.solutions
   -- solve "inputs/day15" Day15.solutions
   -- solve "inputs/day16" Day16.solutions
